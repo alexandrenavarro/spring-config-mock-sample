@@ -1,5 +1,16 @@
 package com.github.springconfigmock.adder.impl;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import javax.annotation.Resource;
+import javax.inject.Inject;
+import javax.inject.Named;
+import javax.inject.Qualifier;
+
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
@@ -21,5 +32,8 @@ public class AdderImplConfig {
         // TODO Auto-generated constructor stub
 
     }
+    
+   
+    
 
 }
